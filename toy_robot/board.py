@@ -18,6 +18,7 @@ class Board(object):
     def __init__(self,x=5,y=5):
         self.x=x  # length of the x axis
         self.y =y # length of the y axis
+
     def checkValid(self,newX,newY):
         """
         This function checks if x,y is inside the board
